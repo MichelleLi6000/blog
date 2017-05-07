@@ -3,17 +3,18 @@ layout: post
 title:       "Ulysses"
 subtitle:    "To follow knowledge like a sinking star"
 date: 		 2017-05-07
+author: "Jackie"
 header-img:  "img/post-bg-ulysses.jpg"
 tags:
 	- ulysses
 	- 尤利西斯
 ---
 
-##Ulysses - 尤利西斯
+## Ulysses - 尤利西斯
 
-这太无谓——当一个闲散的君主
-安居家中，在这个嶙峋的岛国．
-我与年老的妻子相匹，颁布着
+这太无谓——当一个闲散的君主  
+安居家中，在这个嶙峋的岛国．  
+我与年老的妻子相匹，颁布着  
 不公的法律，治理野蛮的种族，——
 他们吃、睡、收藏，而不理解我。
 
