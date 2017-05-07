@@ -68,7 +68,7 @@ ga_domain: huangxuan.me
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "追求知识，像追求没落的星星"
-sidebar-avatar: /img/protrait_jackie.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar:  https://raw.githubusercontent.com/Jackiexiao/blog/gh-pages/img/protrait_jackie.jpg    # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
