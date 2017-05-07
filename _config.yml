@@ -12,10 +12,10 @@ baseurl: "/blog"         # for example, '/blog' if your blog hosted on 'host/blo
 
 # SNS settings
 RSS: false
-weibo_username:     Jackiexiao
-zhihu_username:     Jackiexiao
+weibo_username:     鉴津Jackie 
+zhihu_username:     jackiexiao
 github_username:    Jackiexiao
-facebook_username:  Jackiexiao
+facebook_username:  jackiexiaogeek 
 
 
 
@@ -67,8 +67,8 @@ ga_domain: huangxuan.me
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "写写代码，做做设计，看看产品。世界那么大，多玩玩看看。"
-sidebar-avatar: /img/avatar-hux.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "追求知识，像追求没落的星星"
+sidebar-avatar: /img/protrait_jackie.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
@@ -84,16 +84,7 @@ friends: [
         title: "Hux Blog",
         href: "http://huangxuan.me"
     },{
-        title: "Foo",
-        href: "#"
-    },{
-        title: "Bar",
-        href: "#"
-    },{
-        title: "Example Friends",
-        href: "#"
-    },{
-        title: "It helps SEO",
-        href: "#"
+        title: "Aerobotsysu team",
+        href: "http://aerobotsysu.cn"
     }
 ]
