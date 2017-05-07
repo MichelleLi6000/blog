@@ -1,0 +1,18 @@
+---
+layout:     post
+title:     "Test Sample"
+subtitle:  "Test"
+date:       2017-05-07
+author:     "Jackie"
+header-img: "img/post-bg-ulysses.jpg"
+---
+
+这是一个测试，测试markdown行尾不使用空格可否换行  
+line1
+line2
+
+测试缩进  
+&nbsp; 这是一个nbsp  
+&emsp; 这是一个emsp  
+&ensp; 这是一个ensp
+

@@ -4,90 +4,31 @@ title: "About Me"
 description: "Hey, this is Jackie."
 header-img: "img/about-bg.jpg"
 ---
-
-<!-- Language Selector -->
-<select onchange= "onLanChange(this.options[this.options.selectedIndex].value)">
-    <option value="0" selected> 中文 Chinese </option>
-    <option value="1"> 英语 English </option>
-</select>
-
-<!-- Chinese Version -->
-<div class="zh post-container">
+<div>
     <blockquote>
-       	让我灰色的灵魂徒然渴望
-		在人类思想的最远边界之外
-		追求知识，像追求没落的星星
+       	让我灰色的灵魂徒然渴望</br>
+		在人类思想的最远边界之外</br>
+		追求知识，像追求没落的星星</br>
     </blockquote>
-	热爱生活的人
+	<p>
+	Hi，我是<strong>鉴津Jackie</strong>，程序员 &amp; 文艺青年，现就读于中山大学，属于<a href="https://www.aerobotsysu.cn">中大空中机器人团队</a>
+	常常蜗居在实验楼D302实验室。
+	</p>
+	<p>
+	参与的组织：
+	<ul>
+	<li><a href="https://aisec.org">AIESEC</a></li>
+	<li><a href="https://www.yes-go.cn">北辰青年</a>: YES_GO行动第二期小趴</li>
+	<li><a href="https://www.toastmasters.org">Toastmasters</a> 国际演讲俱乐部-广外俱乐部</li>
+	</ul>
+	</p>
+	<p>
+	网络社区：<a href="https://www.zhihu.com/people/jackiexiao">知乎-鉴津Jackie</a> <a href="http://www.jianshu.com/u/86fac8cd96fa">简书-鉴津Jackie</a>
+	</p>
+	<p>
+	人生最大的理想就是实现人工智能。
+	</p>
 </div>
-
-<!-- English Version -->
-<div class="en post-container">
-    <blockquote>
-		And this gray spirit yearning in desire
-		To follow knowledge like a sinking star，
-		Beyond the utmost bound of human thought.
-    </blockquote>
-
-    <p>
-	A man who loves life. 
-    </p>
-</div>
-
-<!-- Handle Language Change -->
-<script type="text/javascript">
-    var $zh = document.querySelector(".zh");
-    var $en = document.querySelector(".en");
-    function onLanChange(index){
-        if(index == 0){
-            $zh.style.display = "block";
-            $en.style.display = "none";
-        }else{
-            $en.style.display = "block";
-            $zh.style.display = "none";
-        }
-    }
-    onLanChange(0);
-</script>
-
-
-
-{% if site.duoshuo_username %}
-<!-- 多说评论框 start -->
-<div class="comment">
-    <div class="ds-thread"
-    {% if site.duoshuo_username == "huxblog" %}
-        data-thread-id="1187623191091085319"
-    {% else %}
-        data-thread-key="{{site.duoshuo_username}}/about"
-    {% endif %}
-
-    data-title="{{page.title}}"
-    data-url="{{site.url}}/about/"></div>
-</div>
-<!-- 多说评论框 end -->
-
-<!-- Duoshuo hacking -->
-<input id="dsUser" type="hidden" value="{{site.duoshuo_username}}"  />
-
-<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
-<script type="text/javascript">
-    // dynamic User hacking by Hux
-    var _user = document.getElementById('dsUser').value;
-    // duoshuo comment query.
-    var duoshuoQuery = {short_name: _user };
-    (function() {
-        var ds = document.createElement('script');
-        ds.type = 'text/javascript';ds.async = true;
-        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-        ds.charset = 'UTF-8';
-        (document.getElementsByTagName('head')[0]
-         || document.getElementsByTagName('body')[0]).appendChild(ds);
-    })();
-</script>
-<!-- 多说公共JS代码 end -->
-{% endif %}
-
 
 {% if site.disqus_username %}
 <!-- disqus 评论框 start -->
