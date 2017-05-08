@@ -1,9 +1,6 @@
-# HuxBlog Boilerplate
+# Jackie's Blog 
 
-##### This is the boilerplate of [Hux Blog](https://github.com/Huxpro/huxpro.github.io), all documents is over there!
+欢迎来到[Jackie's Blog](https://jackiexiao.github.io/blog)，这同时也是我的Gitbook！
 
-#### [View Boilerplate &rarr;](http://huangxuan.me/huxblog-boilerplate/)
+通过Github我实现了文章同步更新到博客和Gitbook上面，使用Markdown实现纯粹的写作，这的确是一件非常爽快的事情！
 
-#### [View Live Hux Blog &rarr;](http://huangxuan.me)
-
-## If you like Hux Blog, Please star [huxpro.github.io repo](https://github.com/Huxpro/huxpro.github.io) instead of this! Thank you!
