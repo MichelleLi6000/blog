@@ -1,0 +1,22 @@
+---
+layout: page
+title: Gallery
+description: Photo Gallery
+header-img: "img/about-bg.jpg"
+images:
+ - image_path: /blog/photo/01.jpg
+   title: 01
+ - image_path: /blog/photo/02.jpg
+   title: 02
+ - image_path: /blog/photo/03.jpg
+   title: 03
+ - image_path: /blog/photo/04.jpg
+   title: 04
+---
+
+<ul class="photo-gallery">
+  {% for image in page.images %}
+	<li><img src="{{ image.image_path }}" alt="{{ image.title }}"/></li>
+  {% endfor %}
+</ul>
+
