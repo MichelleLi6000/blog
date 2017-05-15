@@ -5,7 +5,7 @@ header-img: img/post-bg-uav.jpg
 email: 707610215@qq.com
 description: "2017年国际空中机器人大赛参赛队伍"
 keyword: "aerobot"
-url: "http://MichelleLi6000.github.io/blog"              # your host, for absolute URL
+url: "http://michelleli6000.github.io/blog"              # your host, for absolute URL
 baseurl: "/blog"         # for example, '/blog' if your blog hosted on 'host/blog'
 
 
